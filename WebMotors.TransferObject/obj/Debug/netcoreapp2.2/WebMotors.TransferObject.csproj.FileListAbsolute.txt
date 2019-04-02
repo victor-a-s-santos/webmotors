@@ -1,0 +1,9 @@
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.TransferObject\bin\Debug\netcoreapp2.2\WebMotors.TransferObject.deps.json
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.TransferObject\bin\Debug\netcoreapp2.2\WebMotors.TransferObject.dll
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.TransferObject\bin\Debug\netcoreapp2.2\WebMotors.TransferObject.pdb
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.TransferObject\obj\Debug\netcoreapp2.2\WebMotors.TransferObject.csprojAssemblyReference.cache
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.TransferObject\obj\Debug\netcoreapp2.2\WebMotors.TransferObject.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.TransferObject\obj\Debug\netcoreapp2.2\WebMotors.TransferObject.AssemblyInfoInputs.cache
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.TransferObject\obj\Debug\netcoreapp2.2\WebMotors.TransferObject.AssemblyInfo.cs
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.TransferObject\obj\Debug\netcoreapp2.2\WebMotors.TransferObject.dll
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.TransferObject\obj\Debug\netcoreapp2.2\WebMotors.TransferObject.pdb

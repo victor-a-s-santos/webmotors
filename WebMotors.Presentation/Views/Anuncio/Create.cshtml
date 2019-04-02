@@ -1,0 +1,113 @@
+﻿@model WebMotors.TransferObject.Entities.Anuncio
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Adicionar Anúncio</h1>
+
+<h4>Anuncio</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="marca" class="control-label">Marcas</label>
+            <select asp-for="marca" class="form-control" asp-items="@ViewBag.Marcas"></select>
+            <span asp-validation-for="marca" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="modelo" class="control-label">Modelos</label>
+            <select asp-for="modelo" class="form-control" asp-items="@(new SelectList(string.Empty, "ID","Name"))"></select>
+            <span asp-validation-for="modelo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="versao" class="control-label"></label>
+            <select asp-for="versao" class="form-control" asp-items="@(new SelectList(string.Empty, "ID","Name"))"></select>
+            <span asp-validation-for="versao" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ano" class="control-label"></label>
+            <input asp-for="ano" class="form-control" />
+            <span asp-validation-for="ano" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="quilometragem" class="control-label"></label>
+            <input asp-for="quilometragem" class="form-control" />
+            <span asp-validation-for="quilometragem" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="observacao" class="control-label"></label>
+            <input asp-for="observacao" class="form-control" />
+            <span asp-validation-for="observacao" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" onclick="gravar()" value="Gravar" class="btn btn-primary" />
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Início</a>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $('#marca').change(function () {
+
+            $.ajax({
+                type: 'GET',
+                url: '/Anuncio/PopulateModelo',
+                data: { ID: $('#marca option:selected').val() },
+                success: function (data) {
+                    var items = '';
+
+                    $.each(data, function (i, obj) {
+                        items += "<option value='" + obj.value + "'>" + obj.text + "</option>";
+                        $("#modelo").append("<option value='" + obj.value + "'>" + obj.text + "</option>");
+                    });
+                }
+            });
+        });
+
+        $('#modelo').change(function () {
+
+            $.ajax({
+                type: 'GET',
+                url: '/Anuncio/PopulateVersao',
+                data: { ID: $('#modelo option:selected').text() },
+                success: function (data) {
+                    var items = '';
+
+                    $.each(data, function (i, obj) {
+                        items += "<option value='" + obj.value + "'>" + obj.text + "</option>";
+                        $("#versao").append("<option value='" + obj.value + "'>" + obj.text + "</option>");
+                    });
+                }
+            });
+        });
+
+        function gravar() {
+            var data = {
+                marca: $('#marca option:selected').text(),
+                modelo: $('#modelo option:selected').text(),
+                versao: $('#versao option:selected').text(),
+                ano: $('#ano').val(),
+                quilometragem: $('#quilometragem').val(),
+                observacao: $('#observacao').val()
+            };
+
+            $.ajax({
+                type: 'POST',
+                url: '/Anuncio/Create',
+                data: { anuncio: data },
+                success: function (result) {
+                    window.location.href = data;
+                }
+            });
+        };
+
+    });
+</script>

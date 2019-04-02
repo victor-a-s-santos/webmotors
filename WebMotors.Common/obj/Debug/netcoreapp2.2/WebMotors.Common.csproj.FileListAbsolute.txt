@@ -1,0 +1,9 @@
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.Common\bin\Debug\netcoreapp2.2\WebMotors.Common.deps.json
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.Common\bin\Debug\netcoreapp2.2\WebMotors.Common.dll
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.Common\bin\Debug\netcoreapp2.2\WebMotors.Common.pdb
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.Common\obj\Debug\netcoreapp2.2\WebMotors.Common.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.Common\obj\Debug\netcoreapp2.2\WebMotors.Common.AssemblyInfoInputs.cache
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.Common\obj\Debug\netcoreapp2.2\WebMotors.Common.AssemblyInfo.cs
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.Common\obj\Debug\netcoreapp2.2\WebMotors.Common.dll
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.Common\obj\Debug\netcoreapp2.2\WebMotors.Common.pdb
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.Common\obj\Debug\netcoreapp2.2\WebMotors.Common.csprojAssemblyReference.cache

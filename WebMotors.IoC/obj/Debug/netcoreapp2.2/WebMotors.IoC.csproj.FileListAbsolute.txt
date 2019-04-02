@@ -1,0 +1,14 @@
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.IoC\bin\Debug\netcoreapp2.2\WebMotors.IoC.deps.json
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.IoC\bin\Debug\netcoreapp2.2\WebMotors.IoC.dll
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.IoC\bin\Debug\netcoreapp2.2\WebMotors.IoC.pdb
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.IoC\bin\Debug\netcoreapp2.2\WebMotors.Repository.dll
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.IoC\bin\Debug\netcoreapp2.2\WebMotors.TransferObject.dll
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.IoC\bin\Debug\netcoreapp2.2\WebMotors.Repository.pdb
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.IoC\bin\Debug\netcoreapp2.2\WebMotors.TransferObject.pdb
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.IoC\obj\Debug\netcoreapp2.2\WebMotors.IoC.csprojAssemblyReference.cache
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.IoC\obj\Debug\netcoreapp2.2\WebMotors.IoC.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.IoC\obj\Debug\netcoreapp2.2\WebMotors.IoC.AssemblyInfoInputs.cache
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.IoC\obj\Debug\netcoreapp2.2\WebMotors.IoC.AssemblyInfo.cs
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.IoC\obj\Debug\netcoreapp2.2\WebMotors.IoC.csproj.CopyComplete
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.IoC\obj\Debug\netcoreapp2.2\WebMotors.IoC.dll
+C:\Users\victo\source\repos\WebMotors.Test\WebMotors.IoC\obj\Debug\netcoreapp2.2\WebMotors.IoC.pdb
